@@ -1,0 +1,1237 @@
+
+html, body{
+    height: 100%;
+}
+body{
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+}
+#pocetna{
+    height: 100%;
+}
+#cover-pocetna{
+    background-image: url(../img/caitlyn-de-wild-sxIVqaksdfE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#logo{
+    position: absolute;
+    z-index: 500;
+    left: 50%;
+    top: 20px;
+    margin-left: -20px;
+}
+#logo h2{
+    color:#fff;
+    text-transform: lowercase;
+    font-size: 44px;
+}
+.main-nav{
+    display: block;
+    position: absolute;
+    z-index: 450;
+    width: 100%;
+    min-width: 320px;
+    margin-top: 36px;
+}
+li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: left;
+    margin-right: 12px;
+}
+.nav-items li a{
+    text-decoration: none;
+}
+.nav-items li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+.nav-right li{
+    display: inline-block;
+    float: right;
+    margin-right: 250px;
+    margin-top: -42px;
+}
+.nav-right li .porucite-link{
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #077d90;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.nav-right li .porucite-link:hover{
+    background-color: #fff;
+    color: #077d90;
+}
+.socials li{
+    font-size: 20px;
+    margin-top: -40px;
+    float: right;
+    margin-right: 100px;
+}
+.socials li .fb{
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #077d90;
+    border-radius: 50%;
+    padding: 4px 8px;
+    margin-right: 100px;
+}
+.socials li .insta{
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #077d90;
+    border-radius: 50%;
+    padding: 4px 8px;
+    margin-right: 50px;
+}
+.socials li .ta{
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #077d90;
+    border-radius: 50%;
+    padding: 4px 8px;
+    margin-right: -5px;
+}
+#cover-pocetna-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-pocetna-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#pocetna-slogan h1{
+    color: #077d90;
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 320px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+/*ukusi section*/
+#ukusi{
+    background: #FCE59A;
+    height: 640px;
+}
+#ukusi-content-left{
+    background-image: url(../img//toa-heftiba-og4DTqhByrE-unsplash.jpg);
+    height: 640px;
+    float: left;
+    width: 50%; 
+}
+.img-paralax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+.pola .right{
+    display: inline;
+    float: right;
+    width: 50%;
+}
+.ukusi-content{
+    overflow: hidden;
+}
+.pola .right .ukusi-okvir {
+    display: inline;
+    align-items: left;
+}
+.ukusi-okvir{
+    width: 450px;
+}
+.pola .ukusi-content .text {
+    padding: 108px 0px;
+}
+#ukusi.pola .ukusi-content p.ukusi-naslov{
+    text-transform: none;
+    font-weight: 500;
+}
+.ufont{
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+}
+.pola .ukusi-content p.ukusi-naslov {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #2f2e2e;
+}
+.pola .ukusi-content .ukusi-desc {
+    text-align: center;
+    width: 60%;
+    min-width: 280px;
+    margin: auto;
+    color: #2f2e2e;
+    line-height: 1.66em;
+    font-size: 1.1em;
+    padding-top: 40px;
+}
+.ukusi-btn{
+    padding-top: 100px;
+}
+.ukusi-btn.black a {
+    color: #2f2e2e;
+    border-color: #2f2e2e;
+}
+.ukusi-btn.black a:hover{
+    color: #fff;
+}
+.ukusi-btn a {
+    display: block;
+    margin: auto;
+    width: 128px;
+    height: 40px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+.btn-stil:hover{
+    background-color: #2f2e2e;
+}
+.pola .left {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.pola .left img {
+    position: absolute;
+    display: block;
+    width: 84%;
+    left: 8%;
+    top: 50%;
+}
+
+/*about section*/
+#cover-about{
+    background-image: url(../img/american-heritage-chocolate-Id8BO472TbY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#about{
+    height: 100%;
+}
+#cover-about-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-about-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#about-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+.btn-okvir{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+.btn-stl{
+    color: #fff;
+    padding: 8px 0px;
+    line-height: 20px;
+    width: 128px;
+    height: 40px;
+    letter-spacing: 1px;
+}
+.btn-stl:hover{
+    background-color: #fff;
+    color: #2f2e2e;
+}
+#about-btn{
+    padding-top: 40px;
+}
+
+/*lokacije section*/
+#lokacije{
+    background: #a9ddff;
+    height: 640px;
+}
+.pola .left{
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.lokacije-content{
+    overflow: hidden;
+}
+.pola .left .lok-okvir {
+    display: inline;
+    align-items: left;
+}
+.lok-okvir{
+    width: 450px;
+}
+.pola .lokacije-content .text {
+    padding: 108px 0px;
+}
+#lokacije.pola .lokacije-content p.lok-naslov{
+    text-transform: none;
+    font-weight: 500;
+}
+.ufont{
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+}
+.pola .lokacije-content p.lok-naslov {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #2f2e2e;
+}
+.pola .lokacije-content .lok-desc {
+    text-align: center;
+    width: 60%;
+    min-width: 280px;
+    margin: auto;
+    color: #2f2e2e;
+    line-height: 1.66em;
+    font-size: 1.1em;
+    padding-top: 40px;
+}
+.lok-btn{
+    padding-top: 100px;
+}
+.lok-btn.black a {
+    color: #2f2e2e;
+    border-color: #2f2e2e;
+}
+.lok-btn.black a:hover{
+    color: #fff;
+}
+.lok-btn a {
+    display: block;
+    margin: auto;
+    width: 128px;
+    height: 40px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+.btn-stil:hover{
+    background-color: #2f2e2e;
+}
+.pola .left {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.pola .left img {
+    position: absolute;
+    display: block;
+    width: 84%;
+    left: 8%;
+    top: 50%;
+}
+#lok-content-right{
+    background-image: url(../img/deva-williamson-YpIKbBZtSWY-unsplash.jpg);
+    height: 640px;
+    float: right;
+    width: 50%; 
+}
+.img-paralax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+
+/*dostava section*/
+#cover-dostava{
+    background-image: url(../img/american-heritage-chocolate-5K5Nc3AGF1w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#dostava{
+    height: 100%;
+}
+#cover-dostava-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-dostava-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#dostava-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+.btn-okvir{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+.btn-stl{
+    color: #fff;
+    padding: 8px 0px;
+    line-height: 20px;
+    width: 128px;
+    height: 40px;
+    letter-spacing: 1px;
+}
+.btn-stl:hover{
+    background-color: #fff;
+    color: #2f2e2e;
+}
+#dostava-btn{
+    padding-top: 40px;
+}
+.dostava-desc {
+    text-align: center;
+    width: 60%;
+    min-width: 280px;
+    margin: auto;
+    color: #fff;
+    line-height: 1.66em;
+    font-size: 26px;
+    padding-top:20px;
+}
+.bottom{
+    text-align: center;
+    background: rgba(48, 47, 47, 0.884);
+}
+.bottom p{
+    color: rgb(155, 155, 155);
+}
+footer{
+    background: rgb(87, 86, 85);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: rgb(155, 155, 155);
+}
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 17px;
+    color: rgb(155, 155, 155);
+}
+.footer-socials li .fb{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-socials li .insta{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-socials li .ta{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/*ukusi stranica*/
+#ukusi-posebna{
+    height: 40%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #FFC780;
+    transition: 0.6s;
+    z-index: 100000;
+}
+header.sticky{
+    background: #fff;
+    box-shadow: 0 4px 6px -6px #222;
+}
+header.sticky #logo h2{
+    color: #000;
+}
+header.sticky a{
+    color: #000;
+}
+header.sticky a:hover{
+    color: #000;
+}
+header.sticky .socials li .ta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.sticky .socials li .insta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.sticky .socials li .fb{
+    color: #fff;
+    background-color: #077d90;
+}
+header.sticky .nav-right li .porucite-link {
+    background-color: #fff;
+    color: #077d90;
+    border: 2px solid #077d90;
+}
+#cover-ukusi{
+    background-color: #FFC780;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#cover-ukusi-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-ukusi-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#ukusi-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+.container-fluid{
+    padding: 0;
+}
+.cake-name{
+    font-size: 20px;
+    font-weight: normal;
+}
+.card-price{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: right;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+
+}
+.card .btn-porucite {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #666;
+    border: 1px solid #666;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    padding: 12px 34px;
+    cursor: pointer;
+    border-radius: 0;
+    text-align: center;
+  }
+  
+.card .btn-porucite:hover {
+    background-color: #666;
+    color: #fff;
+  }
+/* .card-img-top{
+    opacity: 0.9;
+}
+.card-img-top:hover{
+    opacity: 1.0;
+} */
+
+/*porucite-stranica*/
+#porucite{
+    height: 100%;
+}
+#cover-porucite{
+    background-color: #fdc1a9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+header.pocetna{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fdc1a9;
+    transition: 0.6s;
+    z-index: 100000;
+}
+header.pocetna.sticky{
+    background: #fff;
+    box-shadow: 0 4px 6px -6px #222;
+}
+header.pocetna.sticky #logo h2{
+    color: #000;
+}
+header.pocetna.sticky a{
+    color: #000;
+}
+header.pocetna.sticky a:hover{
+    color: #000;
+}
+header.pocetna.sticky .socials li .ta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.pocetna.sticky .socials li .insta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.pocetna.sticky .socials li .fb{
+    color: #fff;
+    background-color: #077d90;
+}
+header.pocetna.sticky .nav-right li .porucite-link {
+    background-color: #fff;
+    color: #077d90;
+    border: 2px solid #077d90;
+}
+#narudzbina-holder{
+    background: #fff;
+    width: 85%;
+    height: 700px;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 200px;
+}
+#naruzdbina-cont {
+    width: 100%;
+    padding-top: 180px;
+    margin: auto;
+}
+
+/*lokacije posebna*/
+#lokacije-posebna{
+    height: 40%;
+}
+header.lokacije{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #5a5756;
+    transition: 0.6s;
+    z-index: 100000;
+}
+header.lokacije.sticky{
+    background: #fff;
+    box-shadow: 0 4px 6px -6px #222;
+}
+header.lokacije.sticky #logo h2{
+    color: #000;
+}
+header.lokacije.sticky a{
+    color: #000;
+}
+header.lokacije.sticky a:hover{
+    color: #000;
+}
+header.lokacije.sticky .socials li .ta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.lokacije.sticky .socials li .insta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.lokacije.sticky .socials li .fb{
+    color: #fff;
+    background-color: #077d90;
+}
+header.lokacije.sticky .nav-right li .porucite-link {
+    background-color: #fff;
+    color: #077d90;
+    border: 2px solid #077d90;
+}
+#cover-lokacije{
+    background-color: #5a5756;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#cover-lok-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-lok-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#lok-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+#cover-lok{
+    background-image: url(../img/samantha-sophia-WNQUJY7Fepw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#lok-sl{
+    height: 100%;
+}
+#izaberi-mesto{
+    padding: 240px 0px;
+    background: #fff;
+}
+#mesto-in{
+    margin: auto;
+}
+#izaberi-mesto .head h3 {
+    font-size: 30px;
+    margin-top: -200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+    color: #2f2e2e;
+}
+#forma-mesto .holder {
+    width: 85%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    margin: auto;
+}
+#mesto-content {
+    width: 100%;
+    padding-top: 180px;
+    margin: auto;
+}
+#mesto-content .opt-group {
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+#mesto-content .opt-group .opt.left {
+    float: left;
+    width: 33.33%;
+}
+#mesto-content .opt {
+    box-sizing: border-box;
+    display: inline;
+}
+#mesto-content .opt .mesto {
+    padding-top: 20px;
+}
+#mesto-content .opt .mesto a {
+    display: block;
+    width: 7em;
+    margin: auto;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#mesto-content .opt .rv {
+    text-align: center;
+}
+#mesto-content .opt .rv .otvoreno {
+    color: #077d90;
+}
+#mesto-content .opt .rv .otvoreno p.status {
+    background: #077d90;
+}
+#mesto-content .opt .rv p.status {
+    display: block;
+    width: 7em;
+    margin: auto;
+    padding: 6px 0px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background: #000000;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+}
+#mesto-content .opt .rv p.radno-vreme {
+    text-align: center;
+    line-height: 1.4em;
+    padding-top: 8px;
+}
+#mesto-content .opt-group .opt.center {
+    float: left;
+    width: 33.33%;
+}
+#mesto-content .opt-group .opt.right {
+    float: right;
+    width: 33.33%;
+}
+#mesto-content .opt .mapa {
+    margin-top: -140px;
+}
+#mesto-content .opt .mapa iframe{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+}
+/*dostava*/
+#dost-posebna{
+    height: 40%;
+}
+header.dostava{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fa6735;
+    transition: 0.6s;
+    z-index: 100000;
+}
+header.dostava.sticky{
+    background: #fff;
+    box-shadow: 0 4px 6px -6px #222;
+}
+header.dostava.sticky #logo h2{
+    color: #000;
+}
+header.dostava.sticky a{
+    color: #000;
+}
+header.dostava.sticky a:hover{
+    color: #000;
+}
+header.dostava.sticky .socials li .ta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.dostava.sticky .socials li .insta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.dostava.sticky .socials li .fb{
+    color: #fff;
+    background-color: #077d90;
+}
+header.dostava.sticky .nav-right li .porucite-link {
+    background-color: #fff;
+    color: #077d90;
+    border: 2px solid #077d90;
+}
+#cover-dostava-posebna{
+    background-color: #fa6735;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#cover-dost-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-dost-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#dost-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+#cover-dost{
+    background-image: url(../img/alona-alona-MWuQGryWZgM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#dost-sl{
+    height: 100%;
+}
+#dostava-text{
+    height: 400px;
+    width: 100%;
+}
+#dost-holder .dost-opis {
+    font-size: 1.2em;
+    line-height: 1.66em;
+    font-weight: 500;
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+    padding-top: 120px;
+}
+#dost-holder .dost-opis a {
+    font-weight: 700;
+    color: #077d90;
+    padding: 0px 3px;
+}
+/*o nama*/
+#about-posebna{
+    height: 40%;
+}
+header.about{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #E56073;
+    transition: 0.6s;
+    z-index: 100000;
+}
+header.about.sticky{
+    background: #fff;
+    box-shadow: 0 4px 6px -6px #222;
+}
+header.about.sticky #logo h2{
+    color: #000;
+}
+header.about.sticky a{
+    color: #000;
+}
+header.about.sticky a:hover{
+    color: #000;
+}
+header.about.sticky .socials li .ta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.about.sticky .socials li .insta{
+    color: #fff;
+    background-color: #077d90;
+}
+header.about.sticky .socials li .fb{
+    color: #fff;
+    background-color: #077d90;
+}
+header.about.sticky .nav-right li .porucite-link {
+    background-color: #fff;
+    color: #077d90;
+    border: 2px solid #077d90;
+}
+#cover-about-posebna{
+    background-color: #E56073;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#cover-about-tekst{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#cover-about-tekst-slogan{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#about-slogan h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+}
+#cover-abt{
+    background-image: url(../img/cake-on-cake-stand.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#abt-sl{
+    height: 100%;
+}
+#abt-text{
+    height: 400px;
+    width: 100%;
+}
+#abt-holder .abt-header {
+    font-size: 3em;
+    line-height: 1.66em;
+    font-weight: 500;
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: "Marck Script", Arial, Helvetica, sans-serif;
+}
+#abt-holder .abt-opis {
+    font-size: 1.2em;
+    line-height: 1.66em;
+    font-weight: 500;
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+    padding-top: 40px;
+}
+#aby-holder .abt-opis a {
+    font-weight: 700;
+    color: #077d90;
+    padding: 0px 3px;
+}
+/*forma*/
+.wrapper{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: auto;
+    padding-top: 20px;
+}
+.form-container{
+    width: 770px;
+    height: 520px;
+    margin: 8% auto ;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+.form-container h3{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.form-container .forma{
+    width: 300px;
+    top: 100px;
+}
+.forma label{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.forma select{
+    width: 120px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #c2c2c2;
+}
+.btn-poruci{
+    text-align: center;
+    width: 100%;
+    margin: -10px -180px;
+}
+.forma input.submit {
+    width: 120px;
+    height: 40px;
+    margin: 0 10px;
+    background: #666;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.forma input.submit:hover {
+    background: #000;
+    color: #fff;  
+}
+::placeholder{
+    color: #000;
+}
+.col-md-6.levo{
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.col-md-6.desno{
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+}
+.forma input {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid #c2c2c2;
+    line-height: 20px;
+    font-size: 15px;
+    color: #2f2e2e;
+    padding: 12px 12px;
+    width: 100%;
+    height: 46px;
+    outline: none;
+}
+.forma input.checkbox{
+    width: 12px;
+    height: 12px;
+    display: block;
+    float: left;
+    margin-left: -20px;
+    margin-top: 7px;
+    background: #e2e2e2;
+    border: 1px solid #000;
+}
+.forma label.datum{
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.forma input.datum{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    margin-left: 112px;
+    border: 1px solid #c2c2c2;
+    line-height: 18px;
+    font-size: 16px;
+    color: #2f2e2e;
+    width: 60%;
+    height: 40px;
+    outline: none;
+}
+.field-check {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.field-check label.check-label {
+    font-weight: 400;
+    padding-bottom: 4px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.field-check label a {
+    color: #077d90;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: inherit;
+}
+.field-check label a:hover{
+    color: #fff;
+    background-color: #077d90;
+}
+.field-check input {
+    position: absolute;
+    opacity: 0;
+}
+.field-check span.checkmark {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-left: -20px;
+    margin-top: 7px;
+    background: #e2e2e2;
+    border: 1px solid #000;
+}
+.field-check label.check-label input:checked ~ span.checkmark {
+    background: #077d90;
+}
+.row {
+    display: flex;
+}
+
